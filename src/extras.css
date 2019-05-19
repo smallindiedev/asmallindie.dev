@@ -1,0 +1,27 @@
+a {
+	color: rgb(0, 217, 255);
+}
+
+.customTabs {
+	border: none;
+}
+
+.customTabs a {
+	background-color: #777 !important;
+	color: white;
+}
+
+.customTabs .nav-link.hover {
+	border-color: none !important;
+}
+
+.customTabs .nav-link.active {
+	background-color: #343A40 !important;
+	border-color: #343A40 !important;
+	color: white;
+}
+
+.customTabPane-Projects {
+	background-color: #343A40 !important;
+	border: solid 1px #343A40 !important;
+}
