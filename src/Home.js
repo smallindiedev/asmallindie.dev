@@ -13,11 +13,8 @@ class Home extends React.Component {
 			<div>
 				<Jumbotron fluid className='bg-dark text-white'>
 					<Container>
-						<h1 className='pt-5'>Welcome!</h1>
-						<p>
-							My name is Sevan Mazmanian, and I maintain this website as an online portfolio.<br />
-							Hopefully, it serves as a good showcase of my projects.
-						</p>
+						<h1 className='pt-5'>Sevan Mazmanian</h1>
+						<h3>Software Engineer</h3>
 					</Container>
 				</Jumbotron>
 				<div className='px-3'>
@@ -25,16 +22,23 @@ class Home extends React.Component {
 						<Row className='justify-content-center'>
 							<Col md={12} lg={3}>
 								<h2>Summary</h2>
-								<p>
-									<h5>This is some very cool text <br /> <br /> </h5>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptates odit illo ratione assumenda neque accusamus aliquam rem, quam provident libero, nemo, dolores similique aut iusto natus vel fugiat illum.Id inventore nobis quia quaerat animi rem explicabo velit beatae mollitia tempore magnam cupiditate atque, maiores voluptatum praesentium ducimus debitis nemo illum qui dolorem omnis temporibus esse! Accusamus, odio a.
+								<p className='text-justify' style={{ fontSize: '18px' }}>
+									Hello, my name is Sevan Mazmanian. I am currently studying in pursuit of
+									a B.S in Computer Science at Western Governors University. This website was
+									designed and developed by me to serve as a portfolio of my work. The projects
+									shown here are automatically kept up to date with my GitHub profile and serve
+									as a showcase of my extracurricular work. <br />
+									I am currently actively seeking internships as a Software Engineer to develop
+									valuable experience before graduating.
 								</p>
 							</Col>
 							<Col md={12} lg={3}>
-								<h2>Filler</h2>
-								<p>
-									<h5>You never really think about how hard filling whitespace is. <br /> <br /> </h5>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum id ex nulla. Sint cumque voluptatibus beatae esse dolorem labore consequuntur perferendis nulla reprehenderit voluptates aspernatur pariatur molestiae, iure eaque ipsum.Suscipit molestiae delectus, quas excepturi corrupti sequi quibusdam consequatur, minus nemo voluptate rem consequuntur, ducimus repellendus quis quod doloribus. Excepturi non aliquid necessitatibus temporibus consequatur id dolorem aperiam. Esse, excepturi.
+								<h2>Skills</h2>
+								<h5>As Shown as Resume</h5>
+								<p style={{ fontSize: '18px' }}>
+									<b>Proficient:</b> C# | JavaScript | Node.js | React.js | Java | SQL | Git | Unity Engine <br />
+									<b>Competent:</b> Python | HTML/CSS | C++ | Linux | Unix Terminal | Matlab <br />
+									<b>Capable of:</b> Object-Oriented Programming | Unit & Integration Testing | Debugging <br />
 								</p>
 							</Col>
 							<Col md={12} lg={3}>

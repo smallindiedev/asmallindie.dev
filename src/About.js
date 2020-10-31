@@ -47,7 +47,10 @@ class AboutText extends React.Component {
 			<div className={`p-3 ${this.props.className}`}>
 				<h2>About</h2>
 				<p>
-					Like 2 paragraphs or something about myself I guess
+					Hello, my name is Sevan Mazmanian. I am currently studying for a B.S in Computer Science
+					at Western Governors University and already hold a B.S in Mathematics. While my expected
+					graduation is in September 2022, I am actively seeking internships and opportunities as
+					a Software Engineer.
 				</p>
 				<h4>Resume</h4>
 				<p>
@@ -59,9 +62,6 @@ class AboutText extends React.Component {
 				<p>
 					For any personal inquires, my <a href='mailto:mazmanian.sevan@gmail.com'>email</a> is open.
 					This is the same email listed in my resume.
-					<br />
-					If there are any issues with the website itself, please
-					contact me at the site&apos;s <a href='mailto:contact@asmallindie.dev'>contact email</a>.
 				</p>
 			</div>
 		);
